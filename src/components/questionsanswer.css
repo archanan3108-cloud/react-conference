@@ -1,0 +1,239 @@
+.faqcontact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ padding: 32px 40px 24px 40px;
+  max-width: 1180px;
+  margin: 28px auto 0 auto;
+  box-sizing: border-box;
+  background: #080531;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(44,55,85,0.13);
+  gap: 28px;
+}
+
+.faq-side {
+  flex: 1;
+  max-width: 610px;
+}
+
+.contact-side {
+  flex: 1;
+  max-width: 370px;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;*/
+  
+}
+
+.divider {
+  width: 2px;
+  background: #e3e6fb;
+  height: 93%;
+  margin: 0 36px;
+  border-radius: 2px;
+  align-self: stretch;
+}
+.faq-section {
+  padding: 38px 0 0px 0;
+  /*background: #27305e; */
+  text-align: center; 
+}
+.faq-title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  letter-spacing: .7px;
+  margin-bottom: 40px;
+  color: #fff;
+  
+}
+.faq-desc {
+  font-size: 1.01rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+.faq-underbar {
+  width: 46px;
+  height: 2px;
+  background: #ed1c5b;
+  margin: 0 auto 22px auto;
+}
+.qa-row {
+  /*display: flex;
+  justify-content: center;
+  gap: 34px;
+  margin-top:  50px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  /* ensures columns stack from the top */
+  gap: 34px;
+  margin-top: 50px;
+  
+}
+.qa-column {
+  /*background: #020644;
+  min-width: 370px;
+  max-width: 440px;
+  border-radius: 3px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column; */
+  background: #020644;
+  width: 440px;
+  border-radius: 3px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+}
+.qa-card {
+  /*border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 0;
+  margin-top: -1px;
+  background: #020644;
+  box-shadow: none;
+  text-align: left;
+  transition: box-shadow .18s; */
+  border: 1px solid #fff;
+  border-radius: 7px;
+  margin-bottom: 0;
+  background: #020644;
+  box-shadow: none;
+  text-align: left;
+  transition: box-shadow .18s, border-color .2s;
+  overflow: hidden;
+}
+.qa-card.open {
+  /*box-shadow: 0 2px 13px rgba(237, 28, 91, 0.07);
+  border-color: #242853; */
+  box-shadow: 0 2px 13px rgba(237, 28, 91, 0.07);
+  border-color: #242853;
+}
+.qa-question {
+  /*display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.04rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 15px 18px 15px 12px;
+  min-height: 30px;
+  color:#fff; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.04rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 20px 18px 20px 15px;
+  min-height: 30px;
+  color: #fff;
+  /*background: #020644; */
+}
+.qa-icon {
+  color: #787cb6;
+  font-size: 1.13rem;
+}
+.qa-arrow {
+  margin-left: auto;
+  color: #787cb6;
+  font-size: 30px;
+}
+.qa-answer {
+  /*padding: 14px 21px;
+  background: #020644;
+  color:#fff;
+  font-size: .99rem;
+  border-top: 1px solid #eee; */
+  padding: 20px 18px 20px 15px;
+  background: #020644;
+  color: #fff;
+  font-size: 1.01rem;
+
+  box-shadow: none;
+}
+@media (max-width:900px) {
+  .qa-row {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .qa-column {
+    min-width: 96vw;
+    max-width: 96vw;
+  }
+}
+.contacts {
+  width: 100%;
+  max-width: 320px;
+  padding-top: 30px;
+}
+
+.contacts-title {
+  color: #fff;
+  
+  font-weight: bold;
+  text-align:center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  letter-spacing: .7px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.contacts-divider {
+  width: 98%;
+  height: 2px;
+  background: #e3e6fb;
+  margin-bottom: 11px;
+}
+
+.contacts-ctext {
+  font-size: 1.03rem;
+  color: #fff;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.contacts-item {
+  margin-top: 24px;
+  font-size: 1.07rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.contacts-icon {
+  color: #fff;
+  font-size: 1.26rem;
+  vertical-align: middle;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.contacts-link {
+  color: #3361e5;
+  font-weight: 500;
+  margin-left: 2px;
+  text-decoration: underline;
+  font-size: 1.09rem;
+}
+
+@media (max-width:900px) {
+  .faqcontact-card {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .faq-side, .contact-side {
+    max-width: 99vw;
+    width: 99vw;
+  }
+  .divider {
+    display: none;
+  }
+}

@@ -1,0 +1,116 @@
+.conference-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #27305e;
+  margin-left: 50px;
+  
+}
+
+.about-section {
+  flex: 3;
+}
+.aboutsection {
+  flex: 3;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+.about-section h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  
+}
+.aboutsection h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  
+}
+.aboutsection  p span{
+  color:rgb(235, 145, 9);
+}
+.aboutsection a{
+   color: #6e66dd;
+}
+.about-section p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+  text-align: justify;
+}
+
+.aboutsection p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+  text-align: justify;
+}
+
+.about-section ul {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about-section li {
+  margin-bottom: 6px;
+}
+
+.about-section button {
+  margin-top: 20px;
+  background-color: #4F46E5;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.attendees-section {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  font-size: 14px;
+}
+
+.attendees-section h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.attendees-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.attendees-section li {
+  margin-bottom: 6px;
+}
+
+
+.schd_btn {
+  display: inline-block;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background: #4666FF;
+  color: #fff;
+  padding: 14px 38px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: background 0.18s;
+  box-shadow: 0 4px 16px #1b239790;
+}
+
+.schd_btn:hover {
+  background: #080531;
+}

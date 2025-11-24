@@ -1,0 +1,141 @@
+.paper-submission-container {
+  /*background:#020644;*/
+  border-radius: 14px;
+  box-shadow: 0 0 18px rgba(0,0,0,0.06);
+  padding: 32px 40px 28px 40px;
+  
+   max-width: 1100px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+.submission-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 11px;
+  letter-spacing: .5px;
+  line-height: 1.1;
+  color:#fff;
+  padding-bottom: 50px;
+}
+
+.section-box {
+  background: #020644;
+  color:#fff;
+  border-radius: 9px;
+  padding:1px 5px 0px 5px;
+  margin-bottom: 22px;
+  box-shadow: 0 0 8px 0px rgba(44,40,77,.04);
+}
+
+.section-header {
+  font-size: 35px;
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+.submit-link {
+  background: #5372e7;
+  color: #fff;
+  padding: 4.5px 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.mail-box {
+  background: #5372e7;
+  color: #fff;
+  font-size: .96rem;
+  padding: 4.5px 12px;
+  border-radius: 5px;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+.note-text {
+  font-size: .98rem;
+  color: #777;
+  display: block;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.template-section .download-btn {
+  background: #5166f2;
+  color: #fff;
+  font-size: .95rem;
+  padding: 0px 16px;
+  margin-left: 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.template-section h3{
+    padding-top: 0px;
+}
+.template-desc {
+  margin-right: 6px;;
+}
+
+.registration-section {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.reg-table {
+  width: 100%;
+  border-collapse: collapse;
+  /*background: #434adf;*/
+  margin-top: 10px;
+  font-size: .99rem;
+}
+
+.reg-table th, .reg-table td {
+  padding: 11px 13px;
+  text-align: left;
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  vertical-align: top;
+}
+
+.reg-table th {
+  color: #fff;
+  font-weight: bold;
+  background: #434adf;
+}
+
+.reg-table td {
+  color: #fff;
+}
+
+.reg-table .border-left {
+  border-left: 3px solid #dedcff;
+}
+
+.policy-section {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.policy-header {
+  
+  margin-bottom: 5px;
+  font-size: 35px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.policy-text {
+  display: block;
+  color: #fff;
+  font-size: 0.98rem;
+  margin-bottom: 50px;
+}

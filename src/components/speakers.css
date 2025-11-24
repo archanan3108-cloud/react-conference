@@ -1,0 +1,110 @@
+
+
+.speakers-section {
+  padding: 44px 0 200px 0;
+  background: #27305e;
+  /* min-height: 50vh;*/
+  text-align: center;
+  font-family: "Montserrat", "Poppins", Arial, sans-serif;
+}
+
+.speakers-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 11px;
+  letter-spacing: .5px;
+  line-height: 1.1;
+  color:#fff;
+  padding-bottom: 50px;
+}
+
+.speakers-desc {
+  color: #787cb6;
+  font-size: 1.04rem;
+  max-width: 480px;
+  margin: 0 auto 18px auto;
+  opacity: .84;
+  letter-spacing: .02em;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 34px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 300px;
+}
+
+.speaker-card {
+  background: #23264a;
+  border-radius: 16px;
+  box-shadow: 0 5px 22px rgba(36, 40, 83, 0.10);
+  padding: 25px 14px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.20s cubic-bezier(.22,.61,.36,1);
+}
+
+.speaker-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 60px rgba(237, 28, 91, 0.08), 0 0 0 4px #ed1c5b22;
+}
+
+.speaker-img-wrap {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f6f8fd;
+  box-shadow: 0 4px 14px rgba(36,48,94,0.09);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.speaker-name {
+  font-size: 1.08rem;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom: 3px;
+}
+
+.speaker-title {
+  font-size: .96rem;
+  color: #fff;
+  opacity: .97;
+  margin-bottom: 3px;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .speakers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 600px) {
+  .speakers-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 96vw;
+  }
+  .speaker-img-wrap {
+    width: 84px;
+    height: 84px;
+  }
+}
+

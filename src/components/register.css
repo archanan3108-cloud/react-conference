@@ -1,0 +1,101 @@
+.modal-overlay {
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.18); /* lighter overlay for clarity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.modal-card.small {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(44,55,85,0.09);
+  padding: 24px 24px;
+  width: 350px;
+  position: relative;
+  min-width: 0;
+}
+
+.modal-title {
+  text-align: center;
+  color: #3836b1;
+  font-size: 1.32rem;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.modal-desc {
+  text-align: center;
+  font-size: 0.99rem;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 11px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.35rem;
+  color: #787cb6;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-input, .modal-select {
+  border: 1px solid #dbdbf5;
+  border-radius: 7px;
+  padding: 7px 9px;
+  font-size: 0.97rem;
+  outline: none;
+  transition: border-color 0.18s;
+}
+
+.modal-input:focus, .modal-select:focus {
+  border-color: #3836b1;
+}
+
+.modal-select {
+  background: #fff;
+}
+
+.modal-file {
+  font-size: 0.96rem;
+  color: #222;
+  display: flex;
+  align-items: center;
+}
+
+.modal-submit {
+  background: #524cf7;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 0;
+  font-size: 1.02rem;
+  font-weight: bold;
+  margin-top: 7px;
+  cursor: pointer;
+  box-shadow: 0 0.5px 2px rgba(44,55,85,0.08);
+  transition: background 0.19s;
+}
+.modal-submit:hover {
+  background: #3836b1;
+}
+
+@media (max-width:480px) {
+  .modal-card.small {
+    width: 98vw;
+    padding: 12px 3vw;
+  }
+}
