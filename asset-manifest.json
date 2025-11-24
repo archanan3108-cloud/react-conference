@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-conference/static/css/main.dabfbb2d.css",
+    "main.js": "/react-conference/static/js/main.3857dd5c.js",
+    "static/js/453.26e159b6.chunk.js": "/react-conference/static/js/453.26e159b6.chunk.js",
+    "static/media/Background.jpg": "/react-conference/static/media/Background.63a7639ab7a53350b4fe.jpg",
+    "static/media/col7.jpg": "/react-conference/static/media/col7.b1741af49557b5634db0.jpg",
+    "static/media/conference_image.jpg": "/react-conference/static/media/conference_image.cb0e5c8e7514dd998fb0.jpg",
+    "static/media/col8.jpg": "/react-conference/static/media/col8.ae400276000a0ff8aec6.jpg",
+    "static/media/conference_image1.jpg": "/react-conference/static/media/conference_image1.231c6db7c38e7a369725.jpg",
+    "static/media/globe2.avif": "/react-conference/static/media/globe2.067a3963122b553d7b0b.avif",
+    "index.html": "/react-conference/index.html",
+    "main.dabfbb2d.css.map": "/react-conference/static/css/main.dabfbb2d.css.map",
+    "main.3857dd5c.js.map": "/react-conference/static/js/main.3857dd5c.js.map",
+    "453.26e159b6.chunk.js.map": "/react-conference/static/js/453.26e159b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dabfbb2d.css",
+    "static/js/main.3857dd5c.js"
+  ]
+}
