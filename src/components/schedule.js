@@ -152,7 +152,6 @@ function ConferenceSchedule() {
       <div className="schedule-tabs">
         {[
           "1st Day 28 March, 2026",
-          "1st half 28 March, 2026",
           "2rd Day 29 March, 2026",
         ].map((label, idx) => (
           <button

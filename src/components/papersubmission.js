@@ -62,7 +62,7 @@ function PaperSubmission(){
       </ol>
     </div>
 
-    <div className="template-section section-box">
+    <div className="template-section sections-box">
       <h3 className="section-header">Template</h3>
       <span className="template-desc">Please follow the template to format your paper.</span>
       <a href="/Call-for-Papers.htm" download className="download-btn"> Download</a>
@@ -91,7 +91,7 @@ function PaperSubmission(){
       </table>
     </div>
 
-    <div className="policy-section section-box">
+    <div className="policy-section sections-box">
       <h4 className="policy-header">Policy on Dual Submission</h4>
       <span className="policy-text">
         Submissions that are identical (or substantially similar) to versions previously published or under review elsewhere are not accepted for ICCETM 2026 and violate our dual submission policy.

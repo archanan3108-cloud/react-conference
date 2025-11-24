@@ -17,7 +17,7 @@ body {
 
 .submission-title {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 11px;
   letter-spacing: .5px;
@@ -35,8 +35,17 @@ body {
   box-shadow: 0 0 8px 0px rgba(44,40,77,.04);
 }
 
+.sections-box {
+  background: #020644;
+  color:#fff;
+  border-radius: 9px;
+  padding:1px 5px 25px 5px;
+  margin-bottom: 22px;
+  box-shadow: 0 0 8px 0px rgba(44,40,77,.04);
+}
+
 .section-header {
-  font-size: 35px;
+  font-size: 40px;
   color: #fff;
   font-weight: bold;
   
@@ -73,7 +82,7 @@ body {
 .template-section .download-btn {
   background: #5166f2;
   color: #fff;
-  font-size: .95rem;
+  font-size: 20px;
   padding: 0px 16px;
   margin-left: 12px;
   border-radius: 6px;
@@ -86,7 +95,8 @@ body {
     padding-top: 0px;
 }
 .template-desc {
-  margin-right: 6px;;
+  margin-right: 6px;
+  font-size:20px;
 }
 
 .registration-section {
