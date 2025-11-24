@@ -1,5 +1,5 @@
 body {
-  background-color: #020644;
+  background-color: #232a5c;
 }
 
 .journal-publication-container {
@@ -14,7 +14,7 @@ body {
 
 .journal-title {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: .5px;
   line-height: 1.1;
@@ -55,7 +55,7 @@ hr {
 
 .journal-subtitle {
   color:#fff;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 8px;
 }

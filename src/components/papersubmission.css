@@ -17,7 +17,7 @@ body {
 
 .submission-title {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 11px;
   letter-spacing: .5px;
@@ -45,7 +45,7 @@ body {
 }
 
 .section-header {
-  font-size: 40px;
+  font-size: 25px;
   color: #fff;
   font-weight: bold;
   
@@ -96,7 +96,7 @@ body {
 }
 .template-desc {
   margin-right: 6px;
-  font-size:20px;
+  font-size:18px;
 }
 
 .registration-section {
@@ -144,7 +144,7 @@ body {
 .policy-header {
   
   margin-bottom: 5px;
-  font-size: 35px;
+  font-size: 25px;
   color: #fff;
   font-weight: bold;
 }
@@ -154,4 +154,5 @@ body {
   color: #fff;
   font-size: 0.98rem;
   margin-bottom: 50px;
+  padding-top: 20px;
 }

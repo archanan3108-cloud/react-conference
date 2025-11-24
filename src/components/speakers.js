@@ -50,7 +50,7 @@ function SpeakersSection() {
     <div id="Speakers">
       <section className="speakers-section">
       
-      <h1 className="speakers-title">Our Speakers</h1>
+      <h1 className="speakers-title">Featured Speakers </h1>
       <div className="speakers-desc">
         
       </div>
