@@ -1,3 +1,7 @@
+body {
+  background-color: #232a5c;
+}
+
 .modal-overlay {
   position: fixed;
   z-index: 999;
