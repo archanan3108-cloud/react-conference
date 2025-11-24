@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/react-conference/static/css/main.5cb7b760.css",
-    "main.js": "/react-conference/static/js/main.2a394ce9.js",
+    "main.css": "/react-conference/static/css/main.89ad7148.css",
+    "main.js": "/react-conference/static/js/main.65a1c7c4.js",
     "static/js/453.26e159b6.chunk.js": "/react-conference/static/js/453.26e159b6.chunk.js",
     "static/media/Background.jpg": "/react-conference/static/media/Background.63a7639ab7a53350b4fe.jpg",
     "static/media/col7.jpg": "/react-conference/static/media/col7.b1741af49557b5634db0.jpg",
+    "static/media/globe.jpg": "/react-conference/static/media/globe.59f6ac662492cac04a54.jpg",
     "static/media/conference_image.jpg": "/react-conference/static/media/conference_image.cb0e5c8e7514dd998fb0.jpg",
     "static/media/col8.jpg": "/react-conference/static/media/col8.ae400276000a0ff8aec6.jpg",
-    "static/media/conference_image1.jpg": "/react-conference/static/media/conference_image1.231c6db7c38e7a369725.jpg",
-    "static/media/globe2.avif": "/react-conference/static/media/globe2.067a3963122b553d7b0b.avif",
     "index.html": "/react-conference/index.html",
-    "main.5cb7b760.css.map": "/react-conference/static/css/main.5cb7b760.css.map",
-    "main.2a394ce9.js.map": "/react-conference/static/js/main.2a394ce9.js.map",
+    "main.89ad7148.css.map": "/react-conference/static/css/main.89ad7148.css.map",
+    "main.65a1c7c4.js.map": "/react-conference/static/js/main.65a1c7c4.js.map",
     "453.26e159b6.chunk.js.map": "/react-conference/static/js/453.26e159b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cb7b760.css",
-    "static/js/main.2a394ce9.js"
+    "static/css/main.89ad7148.css",
+    "static/js/main.65a1c7c4.js"
   ]
 }
