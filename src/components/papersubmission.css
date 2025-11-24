@@ -156,3 +156,7 @@ body {
   margin-bottom: 50px;
   padding-top: 20px;
 }
+
+ol li{
+  margin-bottom: 10px;
+}

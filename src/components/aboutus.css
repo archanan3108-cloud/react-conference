@@ -33,6 +33,13 @@ body {
   color: #fff;
   font-size: 40px;
 }
+.aboutsection h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
 .aboutsection  p span{
   color:rgb(235, 145, 9);
 }
@@ -86,7 +93,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .attendees-section ul {

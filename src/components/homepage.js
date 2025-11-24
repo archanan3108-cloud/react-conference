@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 import img1 from './conference_image.jpg';
-import img2 from './conference_image1.jpg';
-import img3 from './conference_image2.jpg';
-import img4 from './col7.jpg';
-import img5 from './col8.jpg';
-import myImage from './globe2.avif';
+//import img2 from './conference_image1.jpg';
+//import img3 from './conference_image2.jpg';
+import img2 from './col7.jpg';
+import img3 from './col8.jpg';
+import myImage from './globe.jpg';
 import './homepage.css'; 
 
 function CalendarIcon({ size = 38, color = "#4666FF" }) {
@@ -84,7 +84,7 @@ function CountdownTimer() {
     </div>
   );
 }
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img3];
 
 function HeroImageSlider() {
   const [current, setCurrent] = useState(0);
@@ -137,26 +137,13 @@ const HeroSection = () => {
           <span className="brand">ICCET 2026</span>
         </div>
         <ul>
-          {/*<li className="active"><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#Schedule">Schedule</a></li>
-          <li><a href="#Speakers">Speakers</a></li>
-          <li><a href="#Papers">Papers</a></li>
-          <li><a href="#FAQ">FAQ</a></li>
-          <li><a href="#Contact">Contact</a></li> */}
-          {/*<li style={{ position: "relative" }}><a href="#"  onClick={handleClick}>About</a>
-          {showDropdown && (
-            <ul className="dropdown-menu">
-              <li><a href="#ICCET" onClick={() => setShowDropdown(false)}>ICCET 2026</a></li>
-              <li><a href="#vidya" onClick={() => setShowDropdown(false)}>Vidya vikas</a></li>
-            </ul>
-          )}</li>*/}
           <li style={{ position: "relative" }}>
           <a href="#" onClick={e => {
                 e.preventDefault();
                 handleDropdown("about");
               }}
-              style={{ cursor: "pointer" }}>About</a>
+              style={{ cursor: "pointer" }}>About
+              <span style={{fontSize: "20px"}}>&#9662;</span></a>
             {openDropdown === "about" && (
               <ul className="dropdown-menu">
                 <li>
@@ -184,7 +171,7 @@ const HeroSection = () => {
               }}
               style={{ cursor: "pointer" }}
             >
-              Paper Submission
+              Paper Submission <span style={{fontSize: "20px"}}>&#9662;</span>
             </a>
             {openDropdown === "papersubmission" && (
               <ul className="dropdown">
