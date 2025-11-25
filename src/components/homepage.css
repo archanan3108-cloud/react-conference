@@ -25,12 +25,6 @@ body {
 }
 
 .logo {
-  /*display: flex;
-  align-items: center;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  text-align: left; */
    display: flex;
   align-items: center;      /* Vertical alignment */
   justify-content: flex-start; /* Push left */
@@ -42,11 +36,6 @@ body {
 }
 
 .globe_image{
-  /*width: 30px;
-  height: 30px;
-  padding-right: 10px;
-  border-radius: 50%;
-  background: transparent;*/
   width: 30px;
   height: 30px;
   padding-right: 10px;
@@ -89,10 +78,7 @@ body {
   text-decoration: none;
 }
 
-.evently-navbar .active{
-    background:#4666FF;
-  opacity: 1;
-}
+
 .evently-navbar a:hover {
   background:  #080531;
   opacity: 1;
@@ -410,7 +396,8 @@ body {
     padding: 18px 18px 0 0px;
   }
   .logo {
-    margin-bottom: 12px;
+    
+    margin-bottom: 30px;
     justify-content: flex-start;
   }
   .evently-navbar ul {
@@ -426,7 +413,7 @@ body {
   .evently-navbar li a {
     width: 100%;
     display: block;
-    font-size: 18px;
+    font-size: 10px;
     padding: 12px 10px;
     text-align: left;
   }
@@ -435,7 +422,29 @@ body {
     min-width: 80vw;
     left: 0;
     top: 100%;
-    font-size: 18px;
+    font-size: 10px;
+    position: static;    /* Key change: was "absolute" */
+    min-width: unset;
+    background: #232a5c;
+    box-shadow: none;
+    border-radius: 0 0 8px 8px;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdown-menu li,
+  .dropdown li {
+    width: 100%;
+  }
+
+  .dropdown-menu a,
+  .dropdown a {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 10px;
+    background: transparent;
   }
 }
 
@@ -451,6 +460,8 @@ body {
     min-width: 0;
     min-height: unset;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   .evently-hero-left-inner {
     padding: 0 10px;
@@ -467,10 +478,93 @@ body {
 
 /* Hamburger menu (optionally add for hiding/showing nav) */
 @media (max-width: 700px) {
-  .evently-navbar ul {
-    display: none; /* You can toggle this with a menu state in JS/React */
-  }
   .evently-navbar.active ul {
     display: flex;
   }
+}
+
+@media (max-width: 700px) {
+  .navbar-toggle {
+    display: block;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    z-index: 999;
+  }
+  .evently-navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 0;
+    background: #232a5c;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 0;
+    margin:0;
+  }
+  .evently-navbar ul.active {
+    display: flex;
+  }
+}
+
+@media (min-width: 701px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .dropdown-menu,
+  .dropdown {
+    display: block !important;
+    position: static !important;
+    left: 0 !important;
+    top: auto !important;
+    background: #414774 !important;
+    min-width: unset !important;
+    box-shadow: none !important;
+    border-radius: 0 0 8px 8px !important;
+    z-index: 1 !important;
+    padding:  0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .dropdown-menu a,
+  .dropdown a {
+    display: block;
+    padding: 12px 16px;
+    font-size: 17px;
+    background: transparent;
+    color: #fff;
+  }
+  /* Remove gaps between dropdown and other menu items */
+  .dropdown-menu li,
+  .dropdown li,
+  .evently-navbar ul > li {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  /* Style for all nav and dropdown links */
+  .evently-navbar li a,
+  .dropdown-menu a,
+  .dropdown a {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    color: #fff;
+    font-size: 17px;
+    background: transparent;
+    text-align: left;
+    border: none;
+    margin: 0;
+  }
+
+  
 }

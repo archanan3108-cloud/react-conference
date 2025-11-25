@@ -71,3 +71,63 @@ body {
   color:   #8683b9;
   text-decoration: underline;
 }
+
+/* --- Mpbile responsive ----*/
+
+@media (max-width: 900px) {
+  .call-for-papers-container {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 24px;
+    max-width: 98vw;
+    margin: 18px auto;
+    border-radius: 10px;
+  }
+  .call-topic-columns {
+    gap: 18px;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .call-title {
+    font-size: 2rem;
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .call-for-papers-container {
+    padding: 10px 4px 10px 4px;
+    border-radius: 8px;
+    max-width: 99vw;
+  }
+  .call-title {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+  }
+  .call-desc {
+    font-size: 0.97rem;
+    margin-bottom: 13px;
+    padding: 0 6px;
+  }
+  .call-topic-columns {
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 0;
+    margin-bottom: 18px;
+  }
+  .call-column h4 {
+    font-size: 1.07rem;
+    margin-bottom: 5px;
+  }
+  .call-column li {
+    font-size: 0.92rem;
+    margin-bottom: 4px;
+    padding-right: 4px;
+  }
+  .call-contact {
+    font-size: 0.95rem;
+    margin-top: 12px;
+    padding: 0 3px;
+  }
+}

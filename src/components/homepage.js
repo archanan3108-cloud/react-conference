@@ -88,7 +88,7 @@ const images = [img1, img2, img3];
 
 function HeroImageSlider() {
   const [current, setCurrent] = useState(0);
-
+  
   const nextImage = () => {
     setCurrent((current + 1) % images.length);
   };
@@ -126,7 +126,7 @@ const HeroSection = () => {
       prev === dropdownName ? null : dropdownName
     );
   };
-
+const [menuOpen, setMenuOpen] = useState(false);
   return(
      <div className="evently-hero-wrapper">
       <nav className="evently-navbar">
@@ -136,7 +136,13 @@ const HeroSection = () => {
           {/*<span role="img" aria-label="calendar">📅</span> */}
           <span className="brand">ICCET 2026</span>
         </div>
-        <ul>
+         <button
+        className="navbar-toggle"
+        onClick={() => setMenuOpen((open) => !open)}
+      >
+        &#9776; {/* Unicode hamburger icon */}
+      </button>
+        <ul className={menuOpen ? "active" : ""}>
           <li style={{ position: "relative" }}>
           <a href="#" onClick={e => {
                 e.preventDefault();

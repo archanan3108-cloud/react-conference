@@ -19,12 +19,6 @@ body {
   font-size: 40px;
 }
 
-.schedule-description {
-  text-align: center;
-  font-size: 1rem;
-  margin-bottom: 42px;
-  opacity: 0.7;
-}
 
 .schedule-tabs {
   /*display: flex;
@@ -166,4 +160,81 @@ body {
   margin-top: 20px;
   color: #e0e1ec;
   opacity: 0.88;
+}
+
+/* --Mobile responsive ----*/
+@media (max-width: 900px) {
+  .schedule-container {
+    padding: 20px 6px;
+  }
+  .schedule-title {
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  .conference-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    max-width: 98vw;
+    padding: 0 6px;
+  }
+  .conference-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 14px;
+    min-height: 140px;
+  }
+  .conference-avatar {
+    width: 72px;
+    height: 72px;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .conference-info h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .schedule-container {
+    padding: 8px 1px;
+  }
+  .schedule-title {
+    font-size: 1.28rem;
+  }
+  .schedule-description {
+    font-size: 0.97rem;
+    margin-bottom: 14px;
+    padding: 0 6px;
+  }
+  .schedule-tabs {
+    flex-direction: column;
+    gap: 0;
+    width: 98vw;
+    max-width: 98vw;
+    margin: 18px auto 10px auto;
+  }
+  .schedule-tab {
+    padding: 14px 0;
+    font-size: 1rem;
+  }
+  .conference-grid {
+    gap: 13px;
+    padding: 0 1px;
+  }
+  .conference-card {
+    padding: 12px 4px;
+    border-radius: 8px;
+    min-height: 100px;
+  }
+  .conference-avatar {
+    width: 54px;
+    height: 54px;
+    border-width: 2px;
+    margin-bottom: 12px;
+  }
+  .conference-info h2,
+  .conference-details,
+  .conference-desc {
+    font-size: 0.93rem;
+  }
 }

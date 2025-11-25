@@ -93,51 +93,7 @@ const speakersData = [
       img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-4.png"
     },
   ],
-  // 3rd Day - Duplicate of 1st Day as requested
-  [
-    {
-      name: "Michel Smith",
-      topic: "Creating New Business",
-      time: "08:20 Am - 10:30Am",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-5.png"
-    },
-    {
-      name: "David Smith",
-      topic: "Creating New Business",
-      time: "08:20 Am - 10:30Am",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-6.png"
-    },
-    {
-      name: "Adam Smith",
-      topic: "Creating New Business",
-      time: "08:20 Am - 10:30Am",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-5.png"
-    },
-    {
-      name: "John Doe",
-      topic: "Creating New Business",
-      time: "08:20 Am - 10:30Am",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-6.png"
-    },
-    {
-      name: "Anne Doe",
-      topic: "Creating New Business",
-      time: "08:20 Am - 10:30Am",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..",
-      img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-5.png"
-    },
-    {
-      name: "Donal Smith",
-      topic: "Creating New Business",
-      time: "08:20 Am - 10:30Am",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      img: "https://preview.uideck.com/items/evently/assets/img/schedule/schedule-6.png"
-    },
-  ],
+ 
 ];
 
 function ConferenceSchedule() {
@@ -146,9 +102,7 @@ function ConferenceSchedule() {
   return (
     <div className="schedule-container" id="Schedule">
       <h1 className="schedule-title">Conference Schedule</h1>
-      <div className="schedule-description">
-        
-      </div>
+      
       <div className="schedule-tabs">
         {[
           "1st Day 28 March, 2026",
