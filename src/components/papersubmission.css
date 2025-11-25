@@ -160,3 +160,82 @@ body {
 ol li{
   margin-bottom: 10px;
 }
+
+/*  ---Mobile Responsive-----*/
+@media (max-width: 900px) {
+  .paper-submission-container {
+    padding: 12px 6px 12px 6px;
+    max-width: 98vw;
+    margin: 12px;
+    border-radius: 10px;
+  }
+  .section-box,
+  .sections-box {
+    padding: 5px 6px 10px 6px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+  }
+  .submit-link,
+  .mail-box {
+    font-size: 0.98rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 4px;
+  }
+  .template-section .download-btn {
+    font-size: 1rem;
+    padding: 0px 10px;
+    margin-left: 7px;
+    border-radius: 4px;
+  }
+  .template-desc {
+    font-size: 1rem;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 600px) {
+  .paper-submission-container {
+    padding: 4px 2px;
+    border-radius: 6px;
+    margin: 2px;
+  }
+  .submission-title {
+    font-size: 1.1rem;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+  }
+  .section-header,
+  .policy-header {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    padding-top: 0px;
+  }
+  .note-text,
+  .policy-text {
+    font-size: 0.92rem;
+    padding-top: 6px;
+    margin-bottom: 14px;
+  }
+  .section-box,
+  .sections-box {
+    padding: 2px 2px 7px 2px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  .reg-table {
+    font-size: 0.91rem;
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+  .reg-table th, .reg-table td {
+    padding: 6px 4px;
+    font-size: 0.96rem;
+  }
+  ol li {
+    margin-bottom: 7px;
+    font-size: 0.96rem;
+  }
+}
