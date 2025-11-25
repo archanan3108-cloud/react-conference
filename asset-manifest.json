@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-conference/static/css/main.058bcd9f.css",
+    "main.css": "/react-conference/static/css/main.63174a41.css",
     "main.js": "/react-conference/static/js/main.4021efc6.js",
     "static/js/453.26e159b6.chunk.js": "/react-conference/static/js/453.26e159b6.chunk.js",
     "static/media/Background.jpg": "/react-conference/static/media/Background.63a7639ab7a53350b4fe.jpg",
@@ -9,12 +9,12 @@
     "static/media/conference_image.jpg": "/react-conference/static/media/conference_image.cb0e5c8e7514dd998fb0.jpg",
     "static/media/col8.jpg": "/react-conference/static/media/col8.ae400276000a0ff8aec6.jpg",
     "index.html": "/react-conference/index.html",
-    "main.058bcd9f.css.map": "/react-conference/static/css/main.058bcd9f.css.map",
+    "main.63174a41.css.map": "/react-conference/static/css/main.63174a41.css.map",
     "main.4021efc6.js.map": "/react-conference/static/js/main.4021efc6.js.map",
     "453.26e159b6.chunk.js.map": "/react-conference/static/js/453.26e159b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.058bcd9f.css",
+    "static/css/main.63174a41.css",
     "static/js/main.4021efc6.js"
   ]
 }
