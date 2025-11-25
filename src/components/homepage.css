@@ -463,9 +463,14 @@ body {
     margin-top: 30px;
     margin-bottom: 20px;
   }
-  .evently-hero-left-inner {
+  .evently-hero-left-inner  {
     padding: 0 10px;
     max-width: 100%;
+    
+  }
+  .evently-hero-left-inner  h1 {
+    
+    font-size: 45px;
   }
   .hero-img {
     width: 100vw;

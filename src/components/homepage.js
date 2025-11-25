@@ -213,7 +213,7 @@ const [menuOpen, setMenuOpen] = useState(false);
       <div className="evently-hero-content" >
         <div className="evently-hero-left">
           <div className="evently-hero-left-inner">
-            <h1>International Conference on Cognitive Informatics Engineering and Technology 2026</h1>
+            <h1>International Conference on Cognitive Informatics Engineering & Technology  2026</h1>
             {/*<button>Buy Ticket</button> <span></span> <span></span> 
              <button>Register</button> */}
              <p className="para"><span>Date:</span> March 28th & 29th, 2026 (Saturday & Sunday)</p>
