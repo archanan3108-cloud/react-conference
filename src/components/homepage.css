@@ -352,7 +352,7 @@ body {
   color: #23264a;
   text-decoration: none;
   font-size: .98rem;
-  margin-top: 20px;
+  /*margin-top: 20px; */
 } 
 
  .dropdown a {
@@ -398,4 +398,79 @@ body {
 
 .dropdown a:hover {
   background: #0933ec;
+}
+
+/* ------Mobile Responsive ------ */
+/* Add these mobile style overrides at the bottom of your App.css */
+
+@media (max-width: 900px) {
+  .evently-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 18px 0 0px;
+  }
+  .logo {
+    margin-bottom: 12px;
+    justify-content: flex-start;
+  }
+  .evently-navbar ul {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+    gap: 0;
+  }
+  .evently-navbar li {
+    width: 100%;
+  }
+  .evently-navbar li a {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    padding: 12px 10px;
+    text-align: left;
+  }
+  /* Dropdown menu full width on small screens */
+  .dropdown-menu, .dropdown {
+    min-width: 80vw;
+    left: 0;
+    top: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .evently-hero-content {
+    flex-direction: column;
+    padding: 0 6px;
+    min-height: unset;
+  }
+  .evently-hero-left, .evently-hero-right {
+    flex: 1 1 100%;
+    padding: 0;
+    min-width: 0;
+    min-height: unset;
+    justify-content: center;
+  }
+  .evently-hero-left-inner {
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  .hero-img {
+    width: 100vw;
+    max-width: 340px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+}
+
+/* Hamburger menu (optionally add for hiding/showing nav) */
+@media (max-width: 700px) {
+  .evently-navbar ul {
+    display: none; /* You can toggle this with a menu state in JS/React */
+  }
+  .evently-navbar.active ul {
+    display: flex;
+  }
 }
